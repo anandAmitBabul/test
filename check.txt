@@ -1,0 +1,189 @@
+ant -f "E:\\Amit Important data's\\netbeans_projects\\GymManagement" -Dnb.internal.action.name=rebuild clean jar
+init:
+deps-clean:
+Updating property file: E:\Amit Important data's\netbeans_projects\GymManagement\build\built-clean.properties
+Deleting directory E:\Amit Important data's\netbeans_projects\GymManagement\build
+clean:
+init:
+deps-jar:
+Created dir: E:\Amit Important data's\netbeans_projects\GymManagement\build
+Updating property file: E:\Amit Important data's\netbeans_projects\GymManagement\build\built-jar.properties
+Created dir: E:\Amit Important data's\netbeans_projects\GymManagement\build\classes
+Created dir: E:\Amit Important data's\netbeans_projects\GymManagement\build\empty
+Created dir: E:\Amit Important data's\netbeans_projects\GymManagement\build\generated-sources\ap-source-output
+Compiling 73 source files to E:\Amit Important data's\netbeans_projects\GymManagement\build\classes
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClient.java:17: warning: Select is internal proprietary API and may be removed in a future release
+import com.sun.org.apache.bcel.internal.generic.Select;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:37: error: package com.lowagie.text does not exist
+import com.lowagie.text.DocumentException;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:38: error: package com.lowagie.text does not exist
+import com.lowagie.text.Element;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:39: error: package com.lowagie.text does not exist
+import com.lowagie.text.Paragraph;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:40: error: package com.lowagie.text does not exist
+import com.lowagie.text.Phrase;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:41: error: package com.lowagie.text.pdf does not exist
+import com.lowagie.text.pdf.PdfPCell;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:42: error: package com.lowagie.text.pdf does not exist
+import com.lowagie.text.pdf.PdfPTable;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:43: error: package com.lowagie.text.pdf does not exist
+import com.lowagie.text.pdf.PdfWriter;
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:587: error: cannot find symbol
+    private void insertCell(PdfPTable table, String text, int align, int colspan){
+  symbol:   class PdfPTable
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:504: error: package com.lowagie.text does not exist
+                    com.lowagie.text.Document document = new com.lowagie.text.Document();
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:504: error: package com.lowagie.text does not exist
+                    com.lowagie.text.Document document = new com.lowagie.text.Document();
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:505: error: cannot find symbol
+                    PdfWriter writer = PdfWriter.getInstance(document, file);
+  symbol:   class PdfWriter
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:505: error: cannot find symbol
+                    PdfWriter writer = PdfWriter.getInstance(document, file);
+  symbol:   variable PdfWriter
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:506: error: cannot find symbol
+                     Paragraph paragraph = new Paragraph();
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:506: error: cannot find symbol
+                     Paragraph paragraph = new Paragraph();
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:515: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:516: error: cannot find symbol
+                    document.add(new Paragraph("Date - "+today));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:517: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:518: error: cannot find symbol
+                    document.add(new Paragraph("------------------Gym managemnet Software-----------------"));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:519: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:520: error: cannot find symbol
+                    document.add(new Paragraph("Gym Name       :- ________________________________________"));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:521: error: cannot find symbol
+                    document.add(new Paragraph("Gym Adress     :- ________________________________________"));                   
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:522: error: cannot find symbol
+                    document.add(new Paragraph("                  ________________________________________"));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:523: error: cannot find symbol
+                    document.add(new Paragraph("Contact number :- ________________________________________"));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:524: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:525: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:526: error: cannot find symbol
+                    document.add(new Paragraph("Billing Details"));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:527: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:528: error: cannot find symbol
+                    document.add(new Paragraph(""));
+  symbol:   class Paragraph
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:532: error: cannot find symbol
+                    PdfPTable table = new PdfPTable(columnWidths);
+  symbol:   class PdfPTable
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:532: error: cannot find symbol
+                    PdfPTable table = new PdfPTable(columnWidths);
+  symbol:   class PdfPTable
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:537: error: cannot find symbol
+                    insertCell(table, "Bill Id", Element.ALIGN_LEFT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:538: error: cannot find symbol
+                    insertCell(table, clientName+""+randomNum, Element.ALIGN_RIGHT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:539: error: cannot find symbol
+                    insertCell(table, "Customer Name", Element.ALIGN_LEFT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:540: error: cannot find symbol
+                    insertCell(table, clientName, Element.ALIGN_RIGHT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:541: error: cannot find symbol
+                    insertCell(table, "Membership name", Element.ALIGN_LEFT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:542: error: cannot find symbol
+                    insertCell(table, membershipName , Element.ALIGN_RIGHT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:543: error: cannot find symbol
+                    insertCell(table, "Amount", Element.ALIGN_LEFT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:544: error: cannot find symbol
+                    insertCell(table, jt_paymentAmt.getText().toString() , Element.ALIGN_RIGHT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:545: error: cannot find symbol
+                    insertCell(table, "Total", Element.ALIGN_LEFT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:546: error: cannot find symbol
+                    insertCell(table, jt_paymentAmt.getText().toString() , Element.ALIGN_RIGHT, 1);
+  symbol:   variable Element
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:557: error: cannot find symbol
+            catch (FileNotFoundException | DocumentException ex) 
+  symbol:   class DocumentException
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:590: error: cannot find symbol
+        PdfPCell cell = new PdfPCell(new Phrase(text.trim()));
+  symbol:   class PdfPCell
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:590: error: cannot find symbol
+        PdfPCell cell = new PdfPCell(new Phrase(text.trim()));
+  symbol:   class PdfPCell
+  location: class AddClientPayment1
+E:\Amit Important data's\netbeans_projects\GymManagement\src\gymmanagement\AddClientPayment1.java:590: error: cannot find symbol
+        PdfPCell cell = new PdfPCell(new Phrase(text.trim()));
+  symbol:   class Phrase
+  location: class AddClientPayment1
+Note: E:\Amit Important data's\netbeans_projects\GymManagement\src\GM\DatabaseOperations\EditTableData.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+44 errors
+1 warning
+E:\Amit Important data's\netbeans_projects\GymManagement\nbproject\build-impl.xml:930: The following error occurred while executing this line:
+E:\Amit Important data's\netbeans_projects\GymManagement\nbproject\build-impl.xml:270: Compile failed; see the compiler error output for details.
+BUILD FAILED (total time: 5 seconds)
+
+document.add(new Paragraph("Gym Name       :-         MUSCLE MISSION                 "));
+                    document.add(new Paragraph("Gym Adress     :- M-310 , Hennur Main Road , HRBR layout "));                   
+                    document.add(new Paragraph("                          Bangalore ,  560043            "));
+                    document.add(new Paragraph("Contact number :-        080-659093922/33059929          "));
+                    document.add(new Paragraph("                         7676768833 , 9060909392         "));
